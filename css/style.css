@@ -13,9 +13,7 @@
    height:300px;
    margin-left: auto;
    margin-right: auto;
- /*  border-radius: 30px;*/
-   /*overflow: auto;*/
- 
+   border-radius: 10px;
 
 }
 
@@ -24,9 +22,9 @@
    width:400px;
    height:322px;
    text-align: center;
- /*  width:50%;*/
+   width:100%;
 /*   background-color: blue;*/
-   overflow: hidden;
+
    margin:0 auto;
 
 }
@@ -36,8 +34,8 @@
 }
 
 .board-row {
-   height:20.3333333%;
-   width: 375px;
+   height:24.3333333%;
+   width: 366px;
 }
 
 .cell {
@@ -50,14 +48,16 @@
    font-family: Arial;
    font-weight: bold;
    position:relative;
+   border: solid 1px red;
 }
 
 .cell:hover {
    background-color: rgb(221,221,221);
+
 }
 
 .cell span {
    display: block;
    transform: translateY(70%);
-   border: solid 1px red;
+
 }
